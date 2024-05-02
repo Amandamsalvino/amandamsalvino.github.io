@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.buttons {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+button {
+
+    width: 200px;
+    height: 100px;
+    background-color: #79cb15;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    border: 3px solid #000000;
+    box-shadow: 0px 3px 3px 0px  #21f400;
+    cursor: pointer;
+}
+
+button:hover {
+
+    opacity: 0.9;
+}
+
+button:active {
+
+    opacity: 0.6;
+}
+
+
+ul {
+
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+li {
+    
+    border: 3px solid #8133ff;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px #8133ff;
+    
+
+}
+
+img {
+
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+p {
+    color: #ffffff;
+}
+
+.nome-bacon {
+
+    color: #ffffff;
+}
+
+.preco-bacon {
+    color: #79cb15;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:800px){
+
+    ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        margin: 30px 15px;
+    }
+
+
+    button {
+        width: 130px;
+        height: 50px;
+        background-color: #79cb15;
+        color: #000000;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        border: 3px solid #000000;
+        box-shadow: 0px 3px 3px 0px #21f400;
+        cursor: pointer;
+        padding: 3px;
+    }
+    
+}
